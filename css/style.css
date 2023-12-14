@@ -1,0 +1,174 @@
+.container-fluid{
+    min-height: 100vh; /* Full viewport height */
+    background: white;
+}
+
+
+/* search */
+.search{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.search h3{
+    color: var(--Typography-heading-main, #0D0D0D);
+    /* Heading/Heading 5 */
+    font-family: 'Signika', sans-serif;
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+.form-control{
+    border: none;
+    height: 56px;
+    background: transparent;
+    color: #A6A6A6;
+    letter-spacing: 0.65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+.form-search{
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 22px;
+    background: #F8F8F8;
+}
+/* search icon */
+.fa-search{ 
+    width: 20px;
+    height: 20px;
+    color: #B0B0B0;
+}
+
+/* button all */
+#all-fruits{
+    width: 290px;
+    height: 72px;
+    border-radius: 24px;
+    background: #91C788;
+
+    color: #FFF;
+    font-family: Signika;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+/* items */
+#items{
+    padding-top: 30px;
+}
+.fruit-name {
+    color: #91C788;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Signika', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 112% */
+    letter-spacing: -0.24px;
+}
+.nutritions-bg{
+    background: #FFF8EE;
+    height: 110px;
+}
+.nutritions div{
+    margin: 10px;
+}
+.nutritions h6{
+    margin-top: 20px;
+    color: #FF8473;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.24px;
+}
+.nutritions p{
+    color: #FF8473;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Signika', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 140% */
+    letter-spacing: -0.24px;
+}
+.details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.details h6{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Signika', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.8px; /* 140% */
+    letter-spacing: -0.24px;
+    padding-bottom: 20px;
+}
+.details p{
+    color: #A9A9A9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Signika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: -0.24px;
+}
+.item{
+    padding-bottom: 30px;
+}
+
+/* all buttons */
+.fruit-by-button button{
+    color: #FF8473;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Signika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.24px;
+    border-radius: 16px;
+    background: #FFF8EE;
+    width: 290px;
+}
+
+/* error message */
+#error-message{
+    display: none;
+    padding-top: 30px;
+}
+#error-message h2{
+    color: #696969;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Signika;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.8px; /* 140% */
+    letter-spacing: -0.24px;
+
+}
+#error-message p{
+    color: #A9A9A9;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Signika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: -0.24px;    
+}

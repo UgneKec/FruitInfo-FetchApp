@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/2cde0d829d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&family=Signika&display=swap" rel="stylesheet">
+        <title>VAISIAI</title>
+    </head>
+    <main class="container-fluid">
+      <!-- Search -->
+      <div class="search container">
+        <h3 class="text-center p-3">Search</h3>
+        <form class="form-search col-md-6 m-auto py-6 rounded-pill">
+          <div class="d-flex align-items-center">
+            <button class="btn search-button" type="button" id="button"><i class="fas fa-search"></i></button>
+            <input type="text" class="form-control" id ="inputName" placeholder="Search for a fruit...">
+          </div>            
+        </form>  
+      </div>
+
+      <!-- Button ALL -->
+      <div class=" container button-all d-flex justify-content-center">
+        <button id="all-fruits" type="button" class="btn ">All fruits</button>
+      </div>
+  <!-- ERROR -->
+      <div id="error-message" class="text-center">
+        <h2>No Results Found</h2>
+        <p>Try searching for a different keywork <br>or tweek your search a little</p>
+      </div>
+
+      <!-- Rezultatai -->
+      <div id="items" class="container-fluid search-rezults justify-content-center">
+
+
+
+      </div>
+    </main>    
+        <script src="js/app.js"></script>      
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
